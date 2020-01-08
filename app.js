@@ -54,7 +54,7 @@ function generateTable(table, data) {
   
       let td = document.createElement('td')
       tbody.append(td);
-      td.append(document.createTextNode(data[i].props))
+      td.append(document.createTextNode(data[i].name))
 
       let tdeight = document.createElement('td')
       tbody.append(tdeight);
